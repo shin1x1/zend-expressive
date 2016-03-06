@@ -56,6 +56,9 @@
         "xtreamwayz/pimple-container-interop": "^1.0 to use Pimple for dependency injection",
         "zendframework/zend-servicemanager": "^2.5 to use zend-servicemanager for dependency injection"
     },
+    "config": {
+        "process-timeout": 0
+    },
     "scripts": {
         "check": [
             "@cs",
